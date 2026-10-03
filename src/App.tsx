@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { CalcMode, HistoryItem, AngleUnit, AppTheme, PhysicalConstant } from './types/calculator';
 import { evaluateMathExpression, toFraction } from './utils/mathEvaluator';
 import { sound } from './utils/sound';
@@ -412,6 +413,7 @@ export default function App() {
         isOpen={isShortcutsOpen}
         onClose={() => setIsShortcutsOpen(false)}
       />
+      <Analytics />
     </div>
   );
 }
