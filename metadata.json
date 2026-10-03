@@ -1,0 +1,6 @@
+{
+  "name": "OmniCalc Pro - Scientific, Graphing & AI Calculator",
+  "description": "Comprehensive multi-mode calculator featuring standard, scientific, 2D graphing, programmer base conversion, financial suite, unit converter, calculation tape, and Gemini AI math step solver.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
